@@ -1,0 +1,107 @@
+<!-- 2025-05-11 WEB1 - 17. 서버와 클라이언트
+Web Browser (client) : 웹사이트를 요청하는 사람
+Web Server (server) : 웹사이트를 제공하는 사람
+
+web server : 자신에 컴퓨터에 직접 까는것(배울것이 많다)
+web hosting : 대행업체에 맡기는 것(배울것이 적다)
+-->
+
+
+<!-- 2025-05-11 WEB1 - 16. 원시웹
+https://info.cern.ch/
+-->
+
+
+<!-- 2025-05-11 WEB1 - 15. 웹사이트의 완성
+목차별로 어떻게 링크를 클릭해서 들어가는지 배움 
+<li><a href = "1. Beta.html">   Beta          </a></li>
+-->
+
+
+<!-- 2025-05-09 WEB1 - 14. HTML 태그의 제왕
+ HyperText
+ [<a> : anchor] 하이퍼링크를 정의하는 태그, 책의 링크와 같은 것
+ 검색엔진이 링크를 통해 페이지를 크롤링할 수 있도록 도와주는 태그
+ 도로와 같은 역할
+-->
+
+<!-- 2025-05-08 WEB1 - 13. 문서의구조와 슈퍼스타들
+[<DOCTYPE> : doctype] 문서의 유형을 정의하는 태그, 책의 종류와 같은 것
+[<html> : html] 문서의 시작을 정의하는 태그, 책의 시작과 같은 것
+[<head> : head] 문서의 메타데이터를 정의하는 태그, 책의 머리말과 같은 것
+[<title> : title] 문서의 제목을 정의하는 태그, 책 표지와 같은 것
+[<meta> : meta] 문서의 메타데이터를 정의하는 태그, 책의 부록과 같은 것
+[<charset> : charset] 문자 인코딩을 정의하는 속성, 책의 언어와 같은 것
+[<UTF-8> : UTF-8] 유니코드 문자 인코딩을 정의하는 값, 책의 언어와 같은 것
+[<body> : body] 문서의 본문을 정의하는 태그, 책의 본문과 같은 것
+  
+-->
+<!DOCTYPE html>
+<HTML>
+<head>
+    <title>김성훈의 코딩성장기</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<!-- 2025-05-08 WEB1 - 12. 부모자식과 목록록
+[<ol>:ordred list] 1,2,3 적을 필요 없이 넘버링 해주는 코드, 책의 목차와 같은 것
+[<ul>:unordred list] 넘버링 없이 목록화 해주는 부모코드
+[<li>:list item ] ol, ul의 자식코드, 목록의 항목을 정의하는 태그
+-->
+
+<body>
+    <h1><a href="0. index.html"> Benevalue</a></h1>
+    <ol> 
+        <li><a href = "1. Beta.html">Beta          </a></li>
+        <li><a href = "2. Volatility.html">volatility    </a></li>
+        <li><a href = "3. WACC.html">WACC          </a></li>
+        <li><a href = "4. Rating.html">Rating        </a></li>
+        <li><a href = "5. Rate.html">Rate          </a></li>
+        <li><a href = "6. StockOption.html">StockOption   </a></li>
+        <li><a href = "7. RCPS,CB.html">RCPS, CB      </a></li>
+    </ol>
+
+
+
+<!-- 2025-05-05 WEB 1~11
+[<p></p> : paragraph] 단락을 정의하는 태그, 책의 단락과 같은 것
+[<br> : break] 줄바꿈을 정의하는 태그
+첫번째'Coding'은 h2태그, 
+두번째 'Coding'은 디자인적으로 적은 태그이므로 
+첫번째 태그가 검색엔진에 노출될 확률이 높고, 이해하기 쉬운코드다.
+-->
+<h2>Beta</h2>
+<span style="font-size: 24px;"><strong>Coding</strong></span>
+
+
+<!-- 2025-05-05 WEB 1~11
+[<img> : image] 이미지를 삽입하는 태그
+[<src> : source] 이미지의 경로를 지정하는 속성
+[<width> : width] 이미지의 너비를 지정하는 속성
+-->
+<img src="Value.jpg" width="450"></IMG>
+
+
+
+
+<!-- 2025-05-05 WEB 1~11
+[<strong> : strong] 강조된 텍스트를 정의하는 태그
+[<u> : underline] 밑줄이 그어진 텍스트를 정의하는 태그
+[<em> : emphasis] 기울임꼴 텍스트를 정의하는 태그
+-->
+가치평가
+<p>
+<strong><u>가치평가</u></strong>란 기업이나 자산의 가치를 평가하는 과정을 의미합니다. 이는 투자자, 경영진, 회계사 등 다양한 이해관계자들이 기업의 재무 상태를 이해하고 의사 결정을 내리는 데 도움을 줍니다. 가치평가는 여러 방법론을 통해 수행될 수 있으며, 일반적으로 다음과 같은 방법이 있습니다.
+</p>
+
+
+<p style="margin-top:50px;">1. **할인된 현금 흐름(DCF) 분석**: 미래의 현금 흐름을 현재 가치로 할인하여 기업의 가치를 평가합니다.</p>
+<p>2. **비교 기업 분석**: 유사한 기업들의 시장 가치를 비교하여 평가합니다.</p>
+<p>3. **자산 기반 평가**: 기업의 자산 가치를 기반으로 평가합니다.</p>
+<p>4. **수익 기반 평가**: 기업의 수익성을 기반으로 평가합니다.</p>
+<p>5. **시장 접근법**: 시장에서 거래되는 유사 자산의 가격을 기반으로 평가합니다.</p>
+
+
+
+</body>
